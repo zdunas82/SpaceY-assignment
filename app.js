@@ -1,4 +1,6 @@
-document.getElementById('starship-vid').addEventListener('click', function(event) { openStarshipVideo()});
+document.getElementById('starship-vid');
+
+addEventListener('click', function(event) { openStarshipVideo()});
 
 function openStarshipVideo() {
 
@@ -9,7 +11,9 @@ function openStarshipVideo() {
   window.open(url, 'youtubeVideo' , windowFeatures);
 }
 
-document.getElementById('dragon-vid').addEventListener('click', function(event) {openDragonVideo()});
+document.getElementById('dragon-vid');
+
+addEventListener('click', function(event) {openDragonVideo()});
 
 function openDragonVideo() {
 
@@ -20,7 +24,9 @@ function openDragonVideo() {
   window.open(url, 'youtubeVideo' , windowFeatures);
 }
 
-document.getElementById('falcon9-vid').addEventListener('click', function(event) {openFalconVideo()});
+document.getElementById('falcon9-vid');
+
+addEventListener('click', function(event) {openFalconVideo()});
 
 function openFalconVideo() {
 
@@ -31,7 +37,9 @@ function openFalconVideo() {
   window.open(url, 'youtubeVideo' , windowFeatures);
 }
 
-document.getElementById('falcon-heavy-vid').addEventListener('click', function(event) {openFalconHeavyVideo()});
+document.getElementById('falcon-heavy-vid');
+
+addEventListener('click', function(event) {openFalconHeavyVideo()});
 
 function openFalconHeavyVideo() {
 
@@ -41,4 +49,6 @@ function openFalconHeavyVideo() {
 
   window.open(url, 'youtubeVideo' , windowFeatures);
 }
+
+
 
